@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html ng-app="myApp">
+<head>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <link href="app.css" type="text/css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="mainpage">
+    <table>
+        <tr>
+            <td>
+            <h1>
+                Yashas
+            </h1>
+                <p><i>Gameplay Engineer/Designer</i></p>
+                </td>
+            <td class="pagelinks">
+                    <a href="#/about">About</a>
+                    <a href="#/contact">contact</a>
+                    <a href="#/soloprojects">solo projects</a>
+                    <a href="#/teamprojects">team projects</a>
+            </td>
+        </tr>
+    </table>
+    <div ng-view></div>
+    <script src="app.js"></script>
+</body>
+</html>

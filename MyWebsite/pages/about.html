@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h2 class="subpageheader">About Me</h2>
+    <hr />
+    <table>
+        <tr>
+            <td>
+                <div style="height: 305px">
+                    <uib-carousel active="0" interval="2000" no-wrap="false">
+                        <uib-slide ng-repeat="slide in dataArray track by $index">
+                            <p>{{slide.src}}</p>
+                            <!--<img ng-src="{{slide.src}}" style="margin:auto;">
+                            <div class="carousel-caption">
+                                <h4>Slide {{$index}}</h4>
+                                <p>{{slide.src}}</p>
+                            </div>-->
+                        </uib-slide>
+                    </uib-carousel>
+                </div>
+            </td>
+            <td>
+
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

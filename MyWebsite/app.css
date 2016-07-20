@@ -1,0 +1,43 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+}
+.pagelinks{
+    text-align:right;
+    font-size:15px;
+}
+table{
+    width:100%;
+}
+.mainpage{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+h1,p {
+margin: 0;
+}
+
+h2{
+    text-align:center;
+}
+span {
+    font-style: italic;
+}
+div#captioned-gallery {
+	width: 100%;
+	overflow: hidden;
+}
+figure { margin: 0; }
+figure.slider {
+	position: relative;
+	width: 500%;
+	font-size: 0;
+	animation: 40s slidy infinite; 
+}
+figure.slider figure { 
+	width: 20%;
+	height: auto;
+	display: inline-block;
+	position: inherit; 
+}
