@@ -7,25 +7,25 @@
 <body>
     <h2 class="subpageheader">About Me</h2>
     <hr />
-    <table>
-        <tr>
-            <td>
+    <table >
+        <tr >
+            <td class="tdspacing">
                 <div style="height: 305px">
-                    <uib-carousel active="0" interval="2000" no-wrap="false">
-                        <uib-slide ng-repeat="slide in dataArray track by $index">
-                            <p>{{slide.src}}</p>
-                            <!--<img ng-src="{{slide.src}}" style="margin:auto;">
+                    <uib-carousel interval="myInterval">
+                        <uib-slide ng-repeat="slide in slides" active="active" index="$index">
+                            <img ng-src="{{slide.image}}" style="max-height:300px;max-width:600px; min-height:300px;min-width:600px; margin:0 auto;"/>
                             <div class="carousel-caption">
-                                <h4>Slide {{$index}}</h4>
-                                <p>{{slide.src}}</p>
-                            </div>-->
+                                <h4>{{slide.name}}</h4>
+                            </div>
                         </uib-slide>
                     </uib-carousel>
                 </div>
             </td>
-            <td>
-
-
+            <td class="tdspacing">
+                <h4>
+                    Hi!! I am Suwas Walve. I have worked as a Game Engineer / Designer in more than 10 Game Projects. I have played the role of a Lead Engineer, AI Engineer, UI Engineer, Gameplay Engineer and Level Designer in many of them. Apart from my programming skills I am proficient in Maths and Physics as well. I love to contribute to the Art, Design, Production and Marketing part of Game Development. I am more passionate about developing games than playing them.
+                    I am currently a graduate student at the University of Utah, pursuing Masters degree in Entertainment Arts and Engineering program which is the #1 graduate game development program in the U.S. I am currently making a Game Engine using C++. Being a Photoshop Expert and being able to use other 3D modelling softwares as well, I love working with Artists.
+                </h4>
             </td>
         </tr>
     </table>

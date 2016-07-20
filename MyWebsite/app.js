@@ -37,31 +37,43 @@ app.controller('BlogController', function ($scope) {
 });
 
 app.controller('aboutController', function ($scope) {
-    $scope.dataArray = [
-      {
-          src: 'images/avatarmd.png'
-      },
-      {
-          src: 'images/avatarmd.png'
-      },
-      {
-          src: 'images/avatarmd.png'
-      },
-      {
-          src: 'images/avatarmd.png'
-      },
-      {
-          src: 'images/avatarmd.png'
-      },
-      {
-          src: 'images/avatarmd.png'
-      },
-      {
-          src: 'images/avatarmd.png'
-      },
-      {
-          src: 'images/avatarmd.png'
-      }
+    $scope.myInterval = 3000;
+    $scope.noWrapSlides = false;
+    $scope.active = 0;
+    $scope.slides = [
+  {
+      image: 'images/avatarmd.png',
+      name: 'AvatarMD'
+  },
+  {
+      image: 'images/fashion.png',
+      name: 'Fashion Passion'
+  },
+  {
+      image: 'images/giantclips.png',
+      name: 'Giant Clips'
+  },
+  {
+      image: 'images/motormania.png',
+      name: 'Motor Mania'
+  },
+    {
+        image: 'images/NeoTempest.png',
+        name: 'Neo Tempest'
+    },
+    {
+        image: 'images/neverwither.png',
+        name: 'Never Wither'
+    },
+    {
+        image: 'images/nivrana.png',
+        name: 'niVRana'
+    },
+    {
+        image: 'images/two.jpg',
+        name: 'T.W.O'
+    }
+
     ];
-    console.log("In about controller", $scope.dataArray);
+    console.log("In about controller", $scope.slides);
 });

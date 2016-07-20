@@ -5,14 +5,27 @@
     text-align:right;
     font-size:15px;
 }
-table{
+.headertable{
     width:100%;
 }
+.carouselImage{
+    width:400px;
+    height:300px;
+}
+.tdspacing{
+    text-align:start left;
+     padding: 20px;
+     align-content:center;
+
+}
+hr{
+    padding:10px;
+}
 .mainpage{
-    margin-left:100px;
-    margin-right:100px;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:100px;
+    margin-bottom:100px;
 }
 h1,p {
 margin: 0;
@@ -24,20 +37,4 @@ h2{
 span {
     font-style: italic;
 }
-div#captioned-gallery {
-	width: 100%;
-	overflow: hidden;
-}
-figure { margin: 0; }
-figure.slider {
-	position: relative;
-	width: 500%;
-	font-size: 0;
-	animation: 40s slidy infinite; 
-}
-figure.slider figure { 
-	width: 20%;
-	height: auto;
-	display: inline-block;
-	position: inherit; 
-}
+
